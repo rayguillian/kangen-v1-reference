@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
-import { Button } from '@/components/ui/button';
-import { ModeToggle } from '@/components/layout/ModeToggle';
+import { Button } from '../ui/button';
+import { ModeToggle } from './ModeToggle';
 import { Menu, X, Phone } from 'lucide-react';
-import KangenLogo from '@/components/layout/KangenLogo';
-import { cn } from '@/lib/utils';
+import KangenLogo from './KangenLogo';
+import { cn } from '../../lib/utils';
 
 interface HeaderProps {
   isScrolled: boolean;
