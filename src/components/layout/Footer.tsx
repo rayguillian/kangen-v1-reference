@@ -1,7 +1,7 @@
 import { Facebook, Instagram, Twitter, Youtube, Mail, Phone, MapPin } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import KangenLogo from "@/components/layout/KangenLogo";
-import { Separator } from "@/components/ui/separator";
+import { Button } from "../ui/button";
+import KangenLogo from "./KangenLogo";
+import { Separator } from "../ui/separator";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
