@@ -1,8 +1,8 @@
-import { motion } from '@/lib/motion-mock';
+import { motion } from '../../lib/motion-mock';
 import { AlertTriangle, ThumbsUp, Crop as Drop, FlaskRound as Flask, Heart } from "lucide-react";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../ui/card";
+import { Separator } from "../ui/separator";
 
 export default function EducationalContent() {
   return (
