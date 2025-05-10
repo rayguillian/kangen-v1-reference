@@ -1,7 +1,7 @@
-import { motion } from '@/lib/motion-mock';
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { motion } from '../../lib/motion-mock';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "../ui/card";
 import { StarIcon } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../ui/button";
 
 export default function Testimonials() {
   // Testimonial data
