@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import { motion } from '@/lib/motion-mock';
+import { motion } from '../../lib/motion-mock';
 import { ArrowRight, Check, Star } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { Button } from "../ui/button";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "../ui/table";
 
 export default function ProductShowcase() {
   const [selectedProduct, setSelectedProduct] = useState("k8");
