@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button";
-import { motion } from '@/lib/motion-mock';
+import { Button } from '../ui/button';
+import { motion } from '../../lib/motion-mock';
 import { ChevronDown } from "lucide-react";
 
 export default function Hero() {
