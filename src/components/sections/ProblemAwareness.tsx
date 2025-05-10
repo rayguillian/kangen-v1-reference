@@ -1,8 +1,8 @@
-import { Button } from "@/components/ui/button";
-import { motion } from '@/lib/motion-mock';
+import { Button } from "../ui/button";
+import { motion } from '../../lib/motion-mock';
 import { AlertTriangle, TrendingUp, Droplets } from "lucide-react";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import WaterQualityMap from "@/components/ui/water-quality-map";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../ui/card";
+import WaterQualityMap from "../ui/water-quality-map";
 
 export default function ProblemAwareness() {
   return (
