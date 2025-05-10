@@ -17,8 +17,7 @@ export default function WaterQualityMap() {
         {/* Simplified Denmark shape */}
         <path 
           d="M150,100 L200,80 L300,120 L350,100 L380,150 L350,200 L380,250 L350,300 L300,320 L250,350 L200,320 L150,350 L120,300 L100,250 L120,200 L100,150 Z" 
-          fill="currentColor" 
-          className="text-blue-200 dark:text-blue-900" 
+          fill="currentColor"
           stroke="currentColor"
           strokeWidth="2"
           strokeLinecap="round"

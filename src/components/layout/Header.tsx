@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
 import { ModeToggle } from '@/components/layout/ModeToggle';
 import { Menu, X, Phone } from 'lucide-react';
 import KangenLogo from '@/components/layout/KangenLogo';

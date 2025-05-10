@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { motion } from '@/lib/motion-mock';
 import { ChevronDown } from "lucide-react";
-import { cn } from "@/lib/utils";
 
 export default function Hero() {
   const scrollToNextSection = () => {

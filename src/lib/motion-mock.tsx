@@ -11,7 +11,7 @@ interface MotionProps {
 }
 
 export const motion = {
-  div: ({ children, className, ...props }: MotionProps) => {
+  div: ({ children, className }: MotionProps) => {
     return <div className={className}>{children}</div>;
   },
 };
