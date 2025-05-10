@@ -1,4 +1,4 @@
-import { ThemeProvider } from '@/components/theme-provider';
+import { ThemeProvider } from './components/theme-provider';
 import { Toaster } from 'sonner';
 import Layout from '@/components/layout/Layout';
 import Hero from '@/components/sections/Hero';
